@@ -21,7 +21,7 @@ The repository includes two MATLAB scripts and one MATLAB data file.
 #### Script files
 1) **FBA_PaLung_WI38.m** - This script can be used for loading in the PaLung and WI-38 metabolic networks, adding the relevant constraints to the models, and performing unconstrained and constrained flux sampling. The constraint threshold can be set to different ratios (as explained in the manuscript main text) using the minFrac variable. Figures in the manuscript were generated using a minFrac value of 0.3, which corresponds to constraining downregulated reactions to the lower 30% of their feasible flux range, and constraining upregulated reactions to the upper 30% of their feasible flux range.
    
-2) **plot_histogram.m** - Once FBA_PaLung_WI38.m has been run, this script can be run to plot histograms for the following reactions - Complex I, Mitochondrial O2 transport, Complex II and Complex III.
+2) **plot_histograms.m** - Once FBA_PaLung_WI38.m has been run, this script can be run to plot histograms for the following reactions - Complex I, Mitochondrial O2 transport, Complex II and Complex III.
 
 ### Data file
 1) **MetModels.mat** - This data file contains the PaLung and WI-38 metabolic flux models in a .mat format. This data file needs to be in the same folder as the FBA_PaLung_WI38.m, and is automatically loaded into the MATLAB workspace when running the script.
