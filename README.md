@@ -25,4 +25,7 @@ The repository includes two MATLAB scripts and one MATLAB data file.
 
 ### Data file
 1) **MetModels.mat** - This data file contains the PaLung and WI-38 metabolic flux models in a .mat format. This data file needs to be in the same folder as the FBA_PaLung_WI38.m, and is automatically loaded into the MATLAB workspace when running the script.
+
+
+For any queries/issues/bug reports, please contact narendrasuhas@gmail.com
    
