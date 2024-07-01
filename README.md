@@ -1,6 +1,6 @@
 # PalungWI38FluxSim
 
-This repository includes MATLAB scripts (and associated data file) that were used to perform flux sampling and histogram plotting ,for the work comparing WI-38 and PaLung metabolism from the labs of Prof. Lisa Tucker-Kellogg and Prof. Koji Itahana at Duke-NUS Medical School, Singapore.
+This repository includes MATLAB scripts (and associated data file) that were used to perform flux sampling and histogram plotting ,for the work comparing WI-38 and PaLung metabolism from the labs of Prof. Lisa Tucker-Kellogg and Prof. Koji Itahana at Duke-NUS Medical School, Singapore. The peer-reviewed manuscript associated with the code in this package was published as Multi-omic analysis of bat versus human fibroblasts reveals altered central metabolism in the journal eLife (2024) with the following DOI - https://doi.org/10.7554/eLife.94007
 
 ## Requirements
 
